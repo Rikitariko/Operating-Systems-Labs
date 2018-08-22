@@ -1,0 +1,30 @@
+   37  git add .
+   38  git commit -m "merge"
+   39  git push
+   40  git add --all
+   41  git commit -m "Librarians"
+   42  git push
+   43  ls
+   44  whoami
+   45  hostname
+   46  q
+   47  man q
+   48  man --help
+   49  man -h
+   50  cd ~/ week1
+   51  cd week1
+   52  cd /week1
+   53  ls
+   54  mkdir ~/week1
+   55  cd ~/week1
+   56  ls /usr/bin/
+   57  ls /usr/bin/ | grep "gcc"
+   58  ls /usr/bin/ | grep "zi"
+   59  ls /usr/bin/ | sort -r| grep "zi"
+   60  ls /usr/bin/ | sort -r| grep "zi" | head -n 3
+   61  ls /usr/bin/ | grep "zi" | head -n 3
+   62  ls /usr/bin/ | sort -r| grep "gcc"
+   63  ls /usr/bin/ | sort -r| grep "gcc" > ex1.txt
+   64  history > ex2.txt
+   65  history| tail -n 20 > ex2.txt
+   66  history| tail -n 30 > ex2.txt
